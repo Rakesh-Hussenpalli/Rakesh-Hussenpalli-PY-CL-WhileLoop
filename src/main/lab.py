@@ -24,7 +24,11 @@ def count_digits(num):
         # Increment the counter for each digit
         # Remove the last digit by dividing the number by 10
 
-    # Enter you code here   
+    # Enter you code here
+    count=0 
+    while num!=0:
+        num = num//10 
+        count += 1    
 
     # Return the total count of digits
     return count
